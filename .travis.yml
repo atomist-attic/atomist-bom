@@ -19,10 +19,3 @@ notifications:
 cache:
   directories:
   - $HOME/.m2
-deploy:
-  provider: releases
-  api_key:
-    secure: EHxTRpdxaSOjBT+1Paw0ts2Qb8F2lv47NpfqKraBFM5HjbvXHwAglglz9dS6wN0akyl22VohHBc6quhuog5/Q3jahIcivmMlDgJJjbid2ZE25O/utCrHktEDmhD9lCs9Wz2Q1+ORBxONmL3n4U07AnbZbU6/HAJfjR8EIchuFNo7OmiUbkieHqVutO/xhtceId5RSSAS3VY4RHwjyPMlzoMYSKIK8DOXEuI0OpHoQ/YaGZyx3O/ZGbnqZ281/hFvaCWJEf6kf1R464JdtGklPni4OzToyufJvIbrdrYmWEvcK2QZjiKivBWt4pd8VDY163kN99k+xs61AFGMxr1eQ5HK4FtOG5lcZD1gw/MhKJvTbHlWp3wCsIX43FqP6SH5Ez38vV98fk498ggYb54TVi/eT3jtHFqQaxyKWLCF3XhcCvqL24ONsfDyIt4aYb8tUduPWpv7Qlcyx8ilN95edsKnb9wqiqicsnuwd/wPOygL0E3wIZOpF2MCSW5KrVs4UOagyKmCy4KvKJGJ+P1kOT+4WHecOWo6wC/Bzf16VTXIhzUf7/BUGPU8c4z5k81R4C42BcKtDLhOv53wnw1i0PE3IUw+Y4U1aMKkSUwgThTG+DqjCqrQ1QW+bgPSj5n5Df7BB9ssmB3/F5JSzNRn89o54OjK3NXK8XIpdxfezBw=
-  on:
-    tags: true
-    condition: $TRAVIS_TAG =~ ^[0-9]+\.[0-9]+\.[0-9]+$
