@@ -8,6 +8,11 @@
     <packaging>pom</packaging>
     <name>atomist-bom</name>
     <description>Atomist BOM (Bill Of Materials)</description>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
+        <timestamp>${maven.build.timestamp}</timestamp>
+    </properties>
     <dependencyManagement>
         <dependencies>
             <dependency>
