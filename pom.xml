@@ -107,14 +107,6 @@
             <name>Atomist Release</name>
             <url>https://atomist.jfrog.io/atomist/libs-release</url>
         </repository>
-        <repository>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-            <id>public-atomist-snapshots</id>
-            <name>Atomist Snapshots</name>
-            <url>https://atomist.jfrog.io/atomist/libs-snapshot</url>
-        </repository>
     </repositories>
     <distributionManagement>
         <repository>
@@ -122,10 +114,5 @@
             <name>Atomist Release</name>
             <url>https://atomist.jfrog.io/atomist/libs-release-local</url>
         </repository>
-        <snapshotRepository>
-            <id>public-atomist-snapshots</id>
-            <name>Atomist Snapshots</name>
-            <url>https://atomist.jfrog.io/atomist/libs-snapshot-local</url>
-        </snapshotRepository>
     </distributionManagement>
 </project>
