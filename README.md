@@ -8,8 +8,8 @@ are at the same version.
 
 ## Using
 
-Maven provides a tag `dependencyManagement` for this purpose. You need
-to add the bom information in this tag as follows:
+Maven provides a tag `dependencyManagement` for this purpose. You can
+add the bom information in this tag as follows:
 
 ```xml
 <?xml version='1.0' encoding='UTF-8'?>
