@@ -1,6 +1,6 @@
 language: java
 install: true
-script: bash ./travis-build.bash
+script: bash travis-build.bash
 jdk:
 - oraclejdk8
 branches:
@@ -25,7 +25,7 @@ cache:
 deploy:
   provider: releases
   api_key:
-    secure: Gt4MN0tPDZquvDqu99Pf647cqHl6j75Cx9NQ+/Qnk8sKT7YwBgqgEz7piHqq0c9vBYdV1/QiHwCyhnj/CdxotuGXZA0B6r6WgTgcBtkNYKPiZCbOyG4AMY2AXNX+COHEq79MhYFFC4XoVog5QDaw/7QfJrUg8aNoRcH/5HQ0ZpnOzxprbhsobUOWRPuhcLdb2F3foYw468YnvEHBog5qBuY7KvRcvkNGNt6PQFm2W+wssBUMLWAdIlE7Y6B/dV1kxvoCN/g3/yq3P6qcdXLDVSmbAgltsoqtvMs5USsYcwPM9gABhtBjspTy6lhEwPzq7uxdDB3W4l5AaXscoHfd4/QhUsAn78JyInsKKSX4rnwfSWq8iG99jtJs5gXWn8twpCFjx1mXa/01HS084/2HEcF3zN68jmRuIAn/7i0IzYe3NllFuekPDSHaW0cDgCrShsTjQFeV/drXWKDSVzaZ5oWDP4j5jf/2Sl52iTUP+7CAdPlX2Q3cKVnl1fparw8NuGlmwrz3+aC+8E6x2NObWI37+L2PjDyieAMuGPPTFDCrd9he3bBJZQzDsVPJo3xUeLzQeGTR0wt62QG6SSc6U/SfmI1w2F+FyWlsFBvalmqDQ3UC3SZXPB+0s/zAKbq+1aKzkVOFZRguBmw+pRhoLWPUe+LzwoB+y3t4CXHrpCI=
+    secure: P+g6EWJcz6ARFKMqYBMYfvk02UBCSpsvskjBIGG33mbu9Lp0Kp2kgg7yIrRB0yO9B9VpxfLaKOVuSdJuUdvmbcRxIF/zZ/UsJWEkABXKC2PazzaV0X5QRkJX5bytbrwUgl/DraBnE0eJVVVWltOG75Cm19fvFpVXcIAbgJlgc2Z8YrFcIS8L4OYi916qpKMpoVIIsGbSUjd7liMvasWWCbbDit+msiCUCMAOsEe7OzTfOi57KSnu4p4lni10FtMjTIzBwfX4H3ntEkQ767aWvkkl1KYt8MTziPPOkXT3wNjlsrDJU1X3C4ZRtZ8E7tPL/t1nVxPIRmvUPgbWxu93bHLcG/H6jaTF6AhtdFqFJ9Dw47VHALR0yZP4gMminewLA/HOQECC+ejN/OtF/ebsFZHFVj+Ya0l/tfDOoZ/Yr0BxyPqf5m1aS6D3QbL4WSTS4iL0PZKFOrEHI7PhwoVSE6JUN6EF73W1heQBABjZ0rfDxrln0fy3Fm56e2foqB9PmCgkV4dv2WC/TqgCTHIYDFHP4/HBsrg73dXMGmmo4dnj8knKdr0KyDljWQHqwP2Mhq108RVpcFGD7HFnajRS1/n8SHoRDI7xYEehxo9letkQKo2ScbaUWKf/MBDt5Wf1uOBu+ucYj3jH3nxZHsW2OjfKLVudxniBsfkB42XOG+c=
   on:
     tags: true
     condition: "$TRAVIS_TAG =~ ^[0-9]+\\.[0-9]+\\.[0-9]+$"
