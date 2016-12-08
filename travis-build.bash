@@ -24,7 +24,7 @@ if [[ $TRAVIS_BRANCH == @(master|snapshotty) || $TRAVIS_TAG =~ ^[0-9]+\.[0-9]+\.
     fi
     echo "Version is $project_version"
     if [[ $TRAVIS_BRANCH == @(master|snapshotty) ]]; then
-        mvn_deploy_args=-DaltDeploymentRepository=public-atomist-snapshot::default::https://atomist.jfrog.io/atomist/libs-snapshot-local
+        mvn_deploy_args=-DaltDeploymentRepository=public-atomist-dev::default::https://atomist.jfrog.io/atomist/libs-dev-local
     fi
     $mvn deploy -DskipTests $mvn_deploy_args
     git config --global user.email "travis-ci@atomist.com"

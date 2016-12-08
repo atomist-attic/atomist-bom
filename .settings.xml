@@ -6,7 +6,7 @@
       <password>${env.ATOMIST_REPO_TOKEN}</password>
     </server>
     <server>
-      <id>public-atomist-snapshot</id>
+      <id>public-atomist-dev</id>
       <username>${env.ATOMIST_REPO_USER}</username>
       <password>${env.ATOMIST_REPO_TOKEN}</password>
     </server>
