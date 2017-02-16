@@ -24,7 +24,7 @@ add the bom information in this tag as follows:
             <dependency>
                 <groupId>com.atomist</groupId>
                 <artifactId>atomist-bom</artifactId>
-                <version>0.6.0</version>
+                <version>0.7.0</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
