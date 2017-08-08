@@ -1,7 +1,6 @@
 # Atomist 'atomist-bom'
 
 [![Build Status](https://travis-ci.org/atomist/atomist-bom.svg?branch=master)](https://travis-ci.org/atomist/atomist-bom)
-[![Slack Status](https://join.atomist.com/badge.svg)](https://join.atomist.com)
 
 The Atomist BOM (Bill Of Materials) dependency keeps track of version
 numbers and ensure that all dependencies (both direct and transitive)
